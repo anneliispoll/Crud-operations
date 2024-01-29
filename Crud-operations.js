@@ -34,10 +34,10 @@ function pick2ndFlower() {
     console.log(secondFlower);
 }
 
-addFlowers("tulips");
-addFlowers("roses");
-addFlowers("sunflowers");
-addFlowers("peonies");
+addFlowers('tulips');
+addFlowers('roses');
+addFlowers('sunflowers');
+addFlowers('peonies');
 deleteFlower();
 pick2ndFlower();
-updateFlowersArray(flowersArray, "roses", "Roses");
+updateFlowersArray(flowersArray, 'roses', 'Roses');
